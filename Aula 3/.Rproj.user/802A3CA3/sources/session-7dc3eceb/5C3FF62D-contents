@@ -1,0 +1,24 @@
+read_csv("data/vacinas.csv")
+df_vacinas <- read_csv("data/vacinas.csv")
+
+View(df_vacinas)
+df_vacinas %>% glimpse()
+glimpse(df_vacinas)
+
+select("equipamento")
+filter()
+
+names(df_vacinas)
+
+"equipamento"
+"endereco"
+"distrito"
+"status_fila"
+
+levels(as.factor(df_vacinas$tipo_posto))
+
+
+df_postos_funcionando <- df_vacinas %>% 
+  filter(tipo_posto!="POSTO FIXO" & status_fila=="NÃO FUNCIONANDO") %>% 
+  select(equipamento, endereco)
+df_postos_funcionando

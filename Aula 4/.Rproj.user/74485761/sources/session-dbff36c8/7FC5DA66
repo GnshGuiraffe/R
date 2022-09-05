@@ -1,0 +1,26 @@
+{
+    "id": "7FC5DA66",
+    "path": "/cloud/project/Aula4_files/analise_postos-vacinas.R",
+    "project_path": "Aula4_files/analise_postos-vacinas.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1661967635886.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "99,24",
+        "scrollLine": "0"
+    },
+    "folds": "6|2|7|0|\n8|16|17|0|\n18|21|20|0|\n21|25|31|0|\n32|34|48|0|\n66|34|83|0|\n104|10|131|39|\n",
+    "lastKnownWriteTime": 1661970629,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1661974084779,
+    "read_only": false,
+    "read_only_alternatives": []
+}

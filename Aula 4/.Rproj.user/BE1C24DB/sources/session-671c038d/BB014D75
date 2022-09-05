@@ -1,0 +1,26 @@
+{
+    "id": "BB014D75",
+    "path": "/cloud/project/Aula4_files/index.Rmd",
+    "project_path": "Aula4_files/index.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1661801984859.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "514,35",
+        "scrollLine": "491"
+    },
+    "folds": "41|17|60|0|\n61|16|94|0|\n95|32|119|0|\n120|25|134|0|\n135|25|164|0|\n165|30|184|0|\n185|32|208|0|\n209|30|231|0|\n232|38|258|0|\n259|40|278|0|\n279|22|307|0|\n308|22|342|0|\n343|22|359|0|\n360|22|385|0|\n386|22|408|0|\n409|22|455|0|\n456|22|474|0|\n475|22|490|0|\n491|22|507|0|\n535|22|549|0|\n550|22|564|0|\n565|22|579|0|\n580|22|594|0|\n595|22|610|0|\n611|22|626|0|\n627|22|642|0|\n643|22|658|0|\n659|9|672|0|\n673|23|689|0|\n690|23|716|0|\n717|23|732|0|\n733|24|762|0|\n763|35|776|0|\n777|16|797|0|\n",
+    "lastKnownWriteTime": 1661871790,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1661882064403,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,31 @@
+{
+    "id": "2E9EEFEA",
+    "path": "/cloud/project/Aula1.qmd",
+    "project_path": "Aula1.qmd",
+    "type": "quarto_markdown",
+    "hash": "603326404",
+    "contents": "",
+    "dirty": false,
+    "created": 1659725851867.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "0",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "57:0",
+        "cursorPosition": "11,23",
+        "scrollLine": "9"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1659726815,
+    "encoding": "UTF-8",
+    "collab_server": "3816",
+    "source_window": "",
+    "last_content_update": 1659726815737,
+    "read_only": false,
+    "read_only_alternatives": []
+}

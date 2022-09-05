@@ -1,0 +1,29 @@
+df_vacinas_tratado <- df_vacinas %>% 
+  mutate( falta_janssen = if_else(
+    janssen == 0,
+    "posto_SEM_janssen",
+    "postos_COM_janssen",
+    "sem informação")
+  )
+
+df_postos_por_distrito <- df_vacinas_tratado %>%
+  filter(status_fila != "NÃO FUNCIONANDO") %>%
+  mutate(equipamento_existe = case_when(
+    !is.na(equipamento) ~ 1,
+    T ~ 0))
+
+df_postos_por_distrito <- df_postos_por_distrito %>%
+  group_by(distrito, falta_janssen) %>%
+  summarise(qtde_postos_total_com_janssen_por_distrito = sum(equipamento_existe))
+filter(falta_janssen == "postos_COM_janssen")
+--------
+
+df_postos_por_distrito <- df_vacinas_tratado %>%
+  filter(status_fila != "NÃO FUNCIONANDO") %>%
+  mutate(equipamento_existe = case_when(
+    !is.na(equipamento) ~ 1,
+    T ~ 0)) %>% 
+
+  group_by(distrito, falta_janssen) %>%
+  summarise(qtde_postos_com_janssen_por_distrito = sum(equipamento_existe)) %>% 
+  filter(falta_janssen == "postos_COM_janssen")

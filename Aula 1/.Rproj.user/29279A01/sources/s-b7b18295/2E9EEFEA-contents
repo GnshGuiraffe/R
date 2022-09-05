@@ -1,0 +1,44 @@
+---
+title: "Aula 1"
+subtitle: "..."
+author: "..."
+format: 
+  revealjs:
+    logo: https://quarto.org/quarto.png
+    footer: |
+        [R-Ladies](https://rladies.org/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html).
+        Code available on [GitHub](https://github.com/beatrizmilz/quarto-rladies-theme).
+    slide-number: c/t
+    theme: rladies.scss
+    show-slide-number: all
+    title-slide-attributes:
+        data-background-color: "#562457"
+    preview-links: true
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+
+
+-   Content authored with markdown
+-   Output from executable code
+
+::: {.incremental}
+- Eat spaghetti
+- Drink wine
+:::
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
